@@ -1,7 +1,11 @@
-let f='77jju7';
-let App = function() {
-    console.log('App: инициализация');
-}
+var $ = require('jquery');
+var str = '<h1>YEEEEEEE!!!!!</h1>';
+var App = function() {
+    $('body').html(str);
+};
+var app = new App();
 
-let app = new App();
-console.log(f);
+
+app.get = function() {
+
+};
